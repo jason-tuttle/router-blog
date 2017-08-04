@@ -35,3 +35,11 @@ nav {
   font-size: 1em;
   color: #555;
 }
+.waiting-spinner {
+  animation: waiting-logo-spin infinite 1s linear;
+  height: 80px;
+}
+@keyframes waiting-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
